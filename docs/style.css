@@ -296,6 +296,7 @@ nav{
     z-index: 1000;
     transition: opacity .2s ease ;
     cursor: pointer;
+    user-select:none;
   }
 
   .SN{
@@ -558,6 +559,7 @@ section#home-page{
        left: 50%;
        transform: translateX(-50%);
        top: 10rem;
+       user-select: none ;
    }   
 
 /*Scroll Down */
