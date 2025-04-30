@@ -1,24 +1,24 @@
 /*Fonts*/
 @font-face {
     font-family: 'orbitron';
-    src: url(../Fonts/Orbitron-Regular.ttf);
+    src: url(.//Fonts/Orbitron-Regular.ttf);
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'roboto';
-    src: url(../Fonts/Roboto-Regular.ttf);
+    src: url(.//Fonts/Roboto-Regular.ttf);
     font-weight: 100;
 }
 
 @font-face {
     font-family: audiowide;
-    src: url(../Fonts/Audiowide/Audiowide-Regular.ttf);
+    src: url(.//Fonts/Audiowide/Audiowide-Regular.ttf);
 }
 
 @font-face {
     font-family: oxanium;
-    src: url(../Fonts/Oxanium-Regular.ttf);
+    src: url(.//Fonts/Oxanium-Regular.ttf);
 }
 /*Key Frames*/
 @keyframes bounce{
