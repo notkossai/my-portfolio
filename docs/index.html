@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/cccdddaf00.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <title> Portfolio kossai</title>
+</head>
+<body>
+   <!--Navigation Bar-->
+   <div class="side-nav">
+    <a class="SN home"><i class="fas fa-house"></i></a>
+    <a class="SN about"><i class="fas fa-user"></i></a>
+    <a class="SN skill"><i class="fas fa-tools"></i></a>
+    <a class="SN projects"><i class="fas fa-folder-open"></i></a>
+    <a class="SN contact"><i class="fas fa-envelope"></i></a>
+  </div>
+   <nav>
+        <ul class="mainbar">
+        <div class="logo">
+        <img id="logoNav" src=".//Logo/logo-black.png" alt="Logo"> /**/
+     </div>
+    
+    <ul class="nav-list">
+        
+       <li id="home">
+            Home
+        </li>
+        <li id="about">
+            About
+        </li> 
+        <li id="skills">
+            Skills
+        </li>
+        <li id="projects">
+            Projects
+        </li> 
+        <li id="contact">
+            Contact
+        </li>
+    </ul>
+    <button class="socket dark-mode" id="theme-toggle">
+        <i id="iconMoon" class="fa-solid fa-moon fa-rotate-by" style="color: var(--icon); --fa-rotate-angle: -20deg;"></i>
+        <div class="socket-shadow"></div>
+    </button>
+        </ul>
+   </nav>
+   <!-- Home (Page 1)-->
+   <section id="home-page">
+    <div class="p1Content-container">
+        <h1 id="p1Hero">
+            U K S A I
+        </h1>
+        <div class="typing-container">
+        <span id="typingText">
+        </span>
+        </div>
+        <a id="view-projects">
+            View Projects
+            <span id="arrow">
+                <i class="fa-solid fa-caret-right" style="color: #77797e;"></i>
+            </span>
+        </a>
+        
+        <div class="spacer scHome">
+        <a class="scroll-down toAbout"><i class="fas fa-chevron-down"></i> </a>
+    </div>
+    <div class="social-icons-container">
+       <a href="https://www.instagram.com/not.kossai?igsh=MXhna3IxbDZyeTZpeQ==">
+         <span class="social-icon instagram"><i class="fa-brands fa-instagram"></i></span>
+       </a>
+        <a id="social-icons-top" href="https://t.me/notkossai">
+            <span class="social-icon telegram "><i class="fa-regular fa-paper-plane"></i></span>
+        </a>
+        <a href="mailto:notkossai@gmail.com">
+            <span class="social-icon email"><i class="fa-regular fa-envelope"></i></span>
+        </a>
+    </div>
+   </section>
+
+   <!-- About (Page 2)-->
+   <section id="about-page">
+    <h1 id="p2Hero">About<span class="colored-text">Me</span></h1>
+    <div class="strengths-container">
+        <div class="myJourney-text-container">
+            <h2>My Journey</h2>
+            <h3>Hi, I'm <span id="highlited-text">Medjadi Kossai</span>, a Computer Science student at IGMO Oran in Algeria. I have a passion for technology, creativity, and building projects that combine both.</h3>
+            <h3>I've been diving deeper into the tech world for about 2 years now, exploring different areas from web development to coding challenges.</h3>
+            <h3>When I'm not coding, you'll find me brainstorming new ideas, working on personal projects, and always looking for ways to learn more and grow as a developer.</h3>
+            <div class="summary-box ft">
+                <i class="fa-solid fa-circle" style="color: #3dbb;"></i>
+                Based In Algeria
+            </div>
+            <div class="summary-box sc">
+                <i class="fa-solid fa-circle" style="color: #3dbb;"></i>
+                2+ years Learning Experience
+            </div>
+        </div>
+        <div class="strength ft">
+            <div class="strength-icon rocket">
+                <i class="fa-solid fa-rocket"></i>
+            </div>
+            <h2>Problem Solver</h2>
+            <h3>I enjoy tackling challenges by thinking creatively and developing practical, effective solutions.</h3>
+        </div>
+        <div class="strength sc">
+            <div class="strength-icon code">
+                <i class="fa-solid fa-code"></i>
+            </div>
+            <h2>Clean Code Enthusiast</h2>
+            <h3>I value writing organized, readable code that's easy to maintain and understand.</h3>
+        </div>
+        <div class="strength th">
+            <div class="strength-icon vial">
+                <i class="fa-solid fa-vial"></i>
+            </div>
+            <h2>Passiont Learner</h2>
+            <h3>I'm constantly exploring new technologies, languages, and frameworks to expand my knowledge.</h3>
+        </div>
+        <div class="strength fh">
+            <div class="strength-icon chart">
+                <i class="fa-solid fa-chart-simple"></i>
+            </div>
+            <h2>User-Focused</h2>
+            <h3>I focus on creating user-friendly, engaging experiences that are both functional and visually appealing.</h3>
+        </div>
+    </div>
+    <div class="spacer scAbout">
+     <a class="scroll-down toSkills"><i class="fas fa-chevron-down"></i> </a>
+    </div>
+   </section>
+
+   <!--Skills (Page3)-->
+   <section id="skills-page">
+    <h1 id="p3Hero">My <span class="colored-text">Skills</span></h1>
+    <div class="skills-container">
+    <div class="skill-container ft">
+        <h2 class="skills-hero ft">Programming</h2>
+        <div class="skill-content ft">
+        <h3>Bringing ideas to life through code, blending creativity with logic to craft innovative solutions.</h3>
+        <div class="skill-cards ft">
+            <div class="skills c"><span>C</span></div>
+            <div class="skills java"><span>Java</span></div>
+            <div class="skills html"><span>Html</span></div>
+            <div class="skills css"><span>Css</span></div>
+            <div class="skills js"><span>JavaScript</span></div>
+            <div class="skills mysql"><span>MySql</span></div>
+            <div class="skills alg"><span>Data Structures & Algorithmes</span></div>
+        </div>
+        </div>
+    </div>
+    <div class="skill-container sc">
+    <h2 class="skills-hero sc">Skillscape</h2>
+    <div class="skill-content sc">
+        <h3>Exploring diverse interests beyond the screen, where strategy, art, and curiosity come together.</h3>
+        <div class="skill-cards sc">
+            <div class="skills chess"><span><i class="fa-solid fa-chess-knight"></i> Chess</span></div>
+            <div class="skills boxing"><span><i class="fa-solid fa-hand-back-fist"></i>Boxing</span></div>
+            <div class="skills design"><span><i class="fa-solid fa-paintbrush"></i> Design</span></div>
+            <div class="skills books"><span><i class="fa-solid fa-book-open"></i> Books</span></div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="spacer scSkills">
+        <a class="scroll-down toProjects"><i class="fas fa-chevron-down"></i> </a>
+       </div>
+   </section>
+
+   <!--Projects (Page4)-->
+   <section id="projects-page">
+   <h1 id="p4Hero">My <span class="colored-text">Projects</span></h1>
+   <div class="projects-container">
+    <div class="myProject ft">
+        <div class="preview ft"> <img id="previw-image" src=".//Images/preview-eid.jpg" alt="Preview Project"></div>
+        <div class="description-project ft">
+            <span class="descriptionHero ft">Eid Interactive Website</span>
+            <h3>An all-in-one Eid-themed platform featuring a countdown timer, festive quiz, traditional recipes, a zakat calculator, and an Eid greeting generator. Designed to make Eid more engaging and informative.</h3>
+        </div>
+        <div class="details ft"></div>
+    </div>
+    <div class="myProject sc">
+        <div class="preview sc"><img id="previw-image" src=".//Images/preview-calculatrice.jpg" alt="Preview Project"></div>
+        <div class="description-project sc">
+            <span class="descriptionHero sc">Modern Calculator App</span>
+            <h3>A stylish calculator with a black, white, and orange color scheme. It combines clean UI design with essential arithmetic functionality for a smooth user experience.</h3>
+        </div>
+        <div class="details sc"></div>
+    </div>
+    <div class="myProject th">
+        <div class="preview th"><img id="previw-image" src=".//Images/preview-school.jpg" alt="Preview Project"></div>
+        <div class="description-project th">
+            <span class="descriptionHero th">Language School Website</span>
+            <h3>A simple and informative website for a language school, including Home, About, Services, and Contact pages. Built with clarity and ease of use in mind for prospective students.</h3>
+        </div>
+        <div class="details th"></div>
+    </div>
+    <div class="myProject fh">
+        <div class="preview fh"><img id="previw-image" src=".//Images/preview-music.jpg" alt="Preview Project"></div>
+        <div class="description-project fh">
+            <span class="descriptionHero fh">Music App UI</span>
+            <h3>A front-end interface for a music streaming app, inspired by Spotify's sleek login design. Features a visually appealing sign-up and log-in form without backend.</h3>
+        </div>
+        <div class="details fh"></div>
+    </div>
+   </div>
+</div>
+<div class="spacer scProjects">
+    <a class="scroll-down toContact"><i class="fas fa-chevron-down"></i> </a>
+   </div>
+   </section>
+
+     <!--Contact (Page5)-->
+    <section id="contact-page">
+    <h1 id="p5Hero">Contact<span class="colored-text">Me</span></h1>
+    <div class="connection-container">
+    <a href="https://www.instagram.com/not.kossai?igsh=MXhna3IxbDZyeTZpeQ==">
+        <div class="social-icons-down instagram"><i class="fa-brands fa-instagram"></i>@not.kossai</div>
+    </a>
+    <a href="mailto:notkossai@gmail.com">
+        <div class="social-icons-down email"> <i class="fa-regular fa-envelope"></i>@notkossai@gmail.com</div>
+    </a>
+    <a href="https://t.me/notkossai">
+        <div class="social-icons-down telegram"><i class="fa-regular fa-paper-plane"></i>@Medjadi Kossai</div>
+    </a>
+    <a href="https://www.linkedin.com/in/medjadi-kossai-082971362?trk=contact-info">
+        <div class="social-icons-down linkedin"><i class="fa-brands fa-linkedin"></i>@Medjadi Kossai</div>
+    </a>
+    </div>
+    <br><br><br><br>
+    <hr>
+
+    <!--Footer-->
+    <footer>
+            <img class="footer-logo" src=".. /Logo/uksai-logo-blackblack.png" alt="Logo">
+        
+        <div class="footer-social-icons-container">
+            <a href="https://www.instagram.com/not.kossai?igsh=MXhna3IxbDZyeTZpeQ==">
+              <span class="social-icon instagram"><i class="fa-brands fa-instagram"></i>Instagram</span>
+            </a>
+             <a id="social-icons-top" href="https://t.me/notkossai">
+                 <span class="social-icon telegram "><i class="fa-regular fa-paper-plane"></i>Telegram</span>
+             </a>
+             <a href="mailto:notkossai@gmail.com">
+                 <span class="social-icon email"><i class="fa-regular fa-envelope"></i>Email</span>
+             </a>
+         </div>
+         <div class="footer-quicklinks-container">
+            <ul class="nav-list">
+            <h1>Quick Links</h1>
+                <li id="home">
+                     Home
+                 </li>
+                 <li id="about">
+                     About
+                 </li> 
+                 <li id="skills">
+                     Skills
+                 </li>
+                 <li id="projects">
+                     Projects
+                 </li> 
+                 <li id="contact">
+                     Contact
+                 </li>
+             </ul>
+
+         </div>
+    </footer>
+
+    
+    </section>
+   <script src="index.js"> </script>
+</body>
+</html>
