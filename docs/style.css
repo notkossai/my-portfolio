@@ -239,6 +239,10 @@
     }
 }
 
+*:focus{
+    outline: none;
+} 
+
 html{
     scroll-behavior: smooth;
 }
