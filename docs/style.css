@@ -702,8 +702,8 @@ span#highlited-text{
     border-radius: 15px;
     padding-top: 20px;
     padding-bottom: 15px ;
-    padding-right: 8px ;
-    padding-left: 8px ; 
+    padding-right: 1rem ;
+    padding-left: 1rem ; 
     position: relative;
     max-width: 785px;
     left: 50%;
