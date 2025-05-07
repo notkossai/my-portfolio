@@ -694,6 +694,7 @@ span#highlited-text{
     transform: translateX(-50%);
     padding: 0px 12px;
     margin-bottom: 15rem;  /*FIX*/
+    text-align: centre ;             /*TEST*/
 }
 
 .strength{
