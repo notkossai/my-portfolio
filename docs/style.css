@@ -706,7 +706,6 @@ span#highlited-text{
     left: 50%;
     transform: translateX(-50%);
     color: var(--primaryText);
-    text-align: centre ;             /*TEST*/
 }
 
 .strength h3{
