@@ -66,8 +66,11 @@ const themeVariables = [
   'primaryText',
   'secondaryText',
   'borders',
-  'accent',
+  'accent1',
+  'accent2',
   'icon',
+  'shadow',
+  'logo',
   'color1'
 ];
 
