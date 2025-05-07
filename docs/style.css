@@ -700,7 +700,10 @@ span#highlited-text{
 .strength{
     border: 2px solid var(--borders);
     border-radius: 15px;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px ;
+    padding-right: 8px ;
+    padding-left: 8px ; 
     position: relative;
     max-width: 785px;
     left: 50%;
