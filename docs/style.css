@@ -239,10 +239,6 @@
     }
 }
 
-*:focus{
-    outline: none;
-    box-shadow: none;
-} 
 
 html{
     scroll-behavior: smooth;
@@ -303,6 +299,11 @@ nav{
     cursor: pointer;
     user-select:none;
   }
+
+  .side-nav:focus{
+    outline: none;
+} 
+
 
   .SN{
     color: #888;
