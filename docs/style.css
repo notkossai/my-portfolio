@@ -692,8 +692,7 @@ span#highlited-text{
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 0px 12px;
     margin-bottom: 15rem;  /*FIX*/
 }
 
