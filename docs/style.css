@@ -300,6 +300,11 @@ nav{
     user-select:none;
   }
 
+/* Remove blue flash on mobile */
+.side-nav {
+  -webkit-tap-highlight-color: transparent;
+}
+
   .side-nav:focus{
     outline: none;
 } 
