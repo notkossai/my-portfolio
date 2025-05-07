@@ -81,7 +81,7 @@ function switchTheme() {
       .getPropertyValue(`--${variable}-${darkMode ? 'dark' : 'light'}`).trim();
     document.documentElement.style.setProperty(`--${variable}`, newValue);
     });
-  document.querySelector("img.logoNav").src = darkMode ? "Logo/logo-white.png" : "Logo/logo-dark.png";
+//  document.querySelector("img.logoNav").src = darkMode ? "Logo/logo-white.png" : "Logo/logo-dark.png";
 }
 
 btn.addEventListener('click', switchTheme);
